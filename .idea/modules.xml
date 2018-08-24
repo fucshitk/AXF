@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AXF.iml" filepath="$PROJECT_DIR$/.idea/AXF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DjangoDays/.idea/DjangoDays.iml" filepath="$PROJECT_DIR$/../DjangoDays/.idea/DjangoDays.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/DjangoEmpty/.idea/DjangoEmpty.iml" filepath="$USER_HOME$/PycharmProjects/DjangoEmpty/.idea/DjangoEmpty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Hello/.idea/Hello.iml" filepath="$PROJECT_DIR$/../Hello/.idea/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloDjango/.idea/HelloDjango.iml" filepath="$PROJECT_DIR$/../HelloDjango/.idea/HelloDjango.iml" />
+    </modules>
+  </component>
+</project>

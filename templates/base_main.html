@@ -1,0 +1,69 @@
+{# 继承父类页面 #}
+{% extends 'base.html' %}
+
+{# 加载静态资源 #}
+{% load static %}
+
+{# 引入外部样式 #}
+{% block extCSS %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+{% endblock %}
+
+{# 填充统一的header #}
+{% block header %}
+    <header>
+        <div style="background-color: #77CE54;font-size: 20px">{{ title }}</div>
+    </header>
+{% endblock %}
+
+{# 填充统一的页脚 #}
+{% block footer %}
+
+    <footer>
+
+        <a href="{% url 'axf:home' %}" class="home">
+            <dl>
+                <dt>
+                    <span></span>
+                </dt>
+                <dd>首页</dd>
+            </dl>
+        </a>
+
+        <a href="{% url 'axf:market' %}" class="market">
+
+            <dl>
+
+                <dt>
+                    <span></span>
+                </dt>
+                <dd>闪购</dd>
+
+            </dl>
+
+        </a>
+        <a href="{% url 'axf:cart' %}" class="cart">
+
+            <dl>
+
+                <dt>
+                    <span></span>
+                </dt>
+                <dd>购物车</dd>
+
+            </dl>
+
+        </a>
+
+        <a href="{% url 'axf:mine' %}" class="mine">
+            <dl>
+                <dt>
+                    <span></span>
+                </dt>
+                <dd>我的</dd>
+            </dl>
+        </a>
+
+    </footer>
+
+{% endblock %}
