@@ -1,4 +1,4 @@
-Django==1.11.15
+Django
 django-redis==4.9.0
 django-tinymce==2.7.0
 Pillow==5.1.0
